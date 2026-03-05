@@ -20,5 +20,9 @@
   "homepage": "https://github.com/kostasuser01gr/Saas-Platform#readme",
   "devDependencies": {
     "turbo": "^2.8.13"
+  },
+  "dependencies": {
+    "cron": "^4.4.0",
+    "rss-parser": "^3.13.0"
   }
 }
