@@ -32,5 +32,19 @@ export function useTheme() {
     setTheme(newTheme);
   };
 
-  return { theme, setTheme: setThemeAndSave };
+  const toggleTheme = () => {
+    if (theme === 'light') {
+      setThemeAndSave('dark');
+      return;
+    }
+
+    if (theme === 'dark') {
+      setThemeAndSave('system');
+      return;
+    }
+
+    setThemeAndSave('light');
+  };
+
+  return { theme, setTheme: setThemeAndSave, toggleTheme };
 }

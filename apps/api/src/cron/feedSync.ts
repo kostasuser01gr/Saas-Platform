@@ -2,7 +2,7 @@ import Parser from 'rss-parser';
 import { PrismaClient } from '@prisma/client';
 import { CronJob } from 'cron';
 
-const prisma = new PrismaClient();
+const prisma = new PrismaClient() as any;
 const parser = new Parser();
 
 // 📰 TIER 6: News Feed / RSS Ingestion
