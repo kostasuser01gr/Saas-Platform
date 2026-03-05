@@ -1,0 +1,5 @@
+{
+  "name": "Sellution Dashboard",
+  "description": "A high-fidelity, dark-themed sales analytics dashboard featuring real-time data visualization, sales trends heatmaps, and an AI-powered sales assistant powered by Gemini.",
+  "requestFramePermissions": []
+}

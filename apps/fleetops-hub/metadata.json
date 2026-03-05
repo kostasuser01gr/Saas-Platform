@@ -1,0 +1,9 @@
+{
+  "name": "FleetOps Hub",
+  "description": "Enterprise Fleet Management System with AI and Offline capabilities",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
